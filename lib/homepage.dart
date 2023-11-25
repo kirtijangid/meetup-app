@@ -18,6 +18,8 @@ class HomePage extends StatelessWidget {
           SizedBox(height: 10,),
           const IconAndDetail(Icons.calendar_today,'November 25'),
           const IconAndDetail(Icons.location_city,' Bangalore'),
+          const Header("What we'll be doing"),
+          const Paragraph('join us for a day full of Firebase Workshops!')
         ],
       ),
     );
