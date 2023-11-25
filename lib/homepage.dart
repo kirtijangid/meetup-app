@@ -11,6 +11,11 @@ class HomePage extends StatelessWidget {
           'Firebase Meetup',
         ),
       ),
+      body: ListView(
+        children: <Widget> [
+          Image.asset('assets/codelab.png')
+        ],
+      ),
     );
   }
 }

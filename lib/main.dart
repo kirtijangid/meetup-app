@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meetup_app/src/homepage.dart';
+import 'package:meetup_app/homepage.dart';
 
 void main() {
   runApp(MyApp());
