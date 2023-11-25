@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meetup_app/src/widgets.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -13,7 +14,10 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget> [
-          Image.asset('assets/codelab.png')
+          Image.asset('assets/codelab.png'),
+          SizedBox(height: 10,),
+          const IconAndDetail(Icons.calendar_today,'November 25'),
+          const IconAndDetail(Icons.location_city,' Bangalore'),
         ],
       ),
     );
