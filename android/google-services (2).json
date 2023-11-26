@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471131935789",
+    "project_id": "fir-meetup-94dcc",
+    "storage_bucket": "fir-meetup-94dcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471131935789:android:0f0c02349d6cb9d75114a4",
+        "android_client_info": {
+          "package_name": "com.example.meetup_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgx7PJXvHidb7JEJoPRysDCtmQcmpjjEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

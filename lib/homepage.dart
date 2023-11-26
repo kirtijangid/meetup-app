@@ -13,11 +13,13 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: ListView(
-        children: <Widget> [
+        children: <Widget>[
           Image.asset('assets/codelab.png'),
-          SizedBox(height: 10,),
-          const IconAndDetail(Icons.calendar_today,'November 25'),
-          const IconAndDetail(Icons.location_city,' Bangalore'),
+          SizedBox(
+            height: 10,
+          ),
+          const IconAndDetail(Icons.calendar_today, 'November 25'),
+          const IconAndDetail(Icons.location_city, ' Bangalore'),
           const Divider(
             height: 8,
             thickness: 1,
@@ -31,5 +33,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-
